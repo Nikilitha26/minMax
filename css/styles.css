@@ -1,31 +1,42 @@
 body {
-    background-color: rgb(214, 175, 214);
+    background-color: #002028; 
     position: relative;
     text-align: center;
 }
-
+.container{
+    position: relative;
+    top: 100px;
+}
 h1 {
-    color: white;
+    color: pink; 
     position: relative;
     text-align: center;
 }
 
 button {
-    background-color: rgb(161, 52, 161);
-    color: white;
-    height: 25px;
+    background-color: pink;
+    color: #002028; 
+    height: 30px;
     position: relative;
     text-align: center;
     left: 30px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(222, 95, 116);
 }
 input{
     font-style: italic;
     height: 25px;
     position: relative;
     text-align: center;
+    border: 1px solid pink; 
+    background-color: #002028; 
+    color: pink; 
 }
 p{
-    color: white;
+    color: pink;
     font-size: larger;
     position: relative;
     text-align: center;
